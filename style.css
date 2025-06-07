@@ -100,3 +100,33 @@ form > button {
 h3 {
     font-size: 1.8rem;
 }
+
+@media screen and (max-width: 900px) {
+    .section6 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .section8 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .section81 {
+        width: 120px;
+        margin-left: 60px;
+    }
+    nav {
+       padding-bottom: 20px; 
+    }
+    .nav-links:last-of-type {
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    nav {
+       padding-bottom: 20px; 
+       padding-top: -100px;
+       height: 70px;
+    }
+}

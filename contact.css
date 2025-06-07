@@ -78,3 +78,38 @@ form > button {
 h3 {
     font-size: 1.8rem;
 }
+
+@media screen and (max-width: 1300px) {
+    form {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    form {
+        margin-left: 400px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    form {
+        margin-left: 80px;
+    }
+    nav {
+       padding-bottom: 20px; 
+    }
+    .nav-links:last-of-type {
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+       padding-bottom: 20px; 
+       padding-top: -100px;
+       height: 70px;
+    }
+    form {
+        margin-left: 50px;
+    }
+}

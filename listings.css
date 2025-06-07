@@ -84,3 +84,24 @@ h3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+@media screen and (max-width: 900px) {
+    nav {
+       padding-bottom: 20px; 
+    }
+    .nav-links:last-of-type {
+        padding-top: 10px;
+    }
+    .s1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    nav {
+       padding-bottom: 20px; 
+       padding-top: -100px;
+       height: 70px;
+    }
+}
