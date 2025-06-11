@@ -57,6 +57,13 @@ button {
     height: 40px;
     border: 1px solid #000;
     font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
 }
 
 .section8, .section6 {
@@ -80,7 +87,7 @@ h3 {
     text-align: center;
 }
 
-form {
+.section81 {
     display: grid;
     grid-template-columns: 1fr;
     width: 400px;
