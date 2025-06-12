@@ -1,6 +1,6 @@
-    const name = document.getElementById("name").value;
-    const email = document.getElementById("email").value;
-    const number = document.getElementById("number").value;
+    const name = document.getElementById("name");
+    const email = document.getElementById("email");
+    const number = document.getElementById("number");
 
     let isValid = true;
 
@@ -19,7 +19,7 @@
         isValid = false;
     }
     else {
-        return false;
+        return;
     }
 
 
